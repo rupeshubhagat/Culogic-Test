@@ -1,0 +1,14 @@
+
+*:focus {
+    outline:none !important;
+  }
+
+.gymnasticBtn{
+    font-family: 'RalewayBold'!important;
+    font-size: 0.9375rem;
+    padding: 16px 49px 15px 67px;
+    border-radius: 25px 25px 25px 25px;
+    background-color: $base-color;
+    color: $burnt-orange;
+    text-align: center;
+}

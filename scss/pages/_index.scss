@@ -1,0 +1,212 @@
+.ourClasses {
+  background-color: $black-russian-dark;
+  padding-top: 82px;
+}
+.class-title {
+  font-family: "RalewayMedium" !important;
+  font-size: 3.125rem;
+  text-align: center;
+  color: $base-color;
+  padding-bottom: 26.46px;
+  position: relative;
+  &::before {
+    content: "";
+    width: 128px;
+    height: 2px;
+    background-color: $radical-red;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -2px;
+  }
+}
+.class-para {
+  font-family: "RalewayMedium" !important;
+  font-size: 1.25rem;
+  color: #c8c8c8;
+  text-align: center;
+  margin-top: 75px;
+  padding-bottom: 29px;
+
+}
+.gymnasticSection {
+  .gymnasticWrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    .gymnastic {
+      width: 33.33%;
+      height: 499px;
+      background-image: url(../assets/ourclasses/gymnasticeOne.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      background-position: 50% 50%;
+      left: 0;
+      .bottomText {
+        background-color: #13191a;
+        opacity: 0.6;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 134px;
+        padding: 40px 10px 58px 10px;
+        text-align: center;
+        box-sizing: border-box;
+        h2 {
+          font-family: "RalewaySemiBold" !important;
+          font-size: 1.875rem;
+          text-align: center;
+          color: $base-color;
+          padding-bottom: 16.5px;
+          position: relative;
+          &::before {
+            content: "";
+            width: 100px;
+            height: 2px;
+            background-color: $burnt-orange;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            bottom: -2px;
+          }
+        }
+      }
+      .bottomBottomUp {
+        width: 100%;
+        height: 0%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color:$burnt-orange;
+        opacity: 0;
+        transition: all .5s ease-in;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2{
+            text-align: center;
+            color: $base-color;
+            @include fontSize(32px);
+        }
+      }
+    }
+    .--gemnasticFirst {
+      background-image: url(../assets/ourclasses/gymnasticeOne.png);
+     &:hover{
+         .bottomTextTwo{
+            opacity: 0.7;
+            height: 80%;
+         }
+         .bottomText{
+             display: none;
+         }
+     }
+    
+    }
+    .--gemnasticTwo {
+      background-image: url(../assets/ourclasses/gymnasticTwo.png);
+      &:hover{
+        .bottomTextTwo{
+            // display: inline-block;
+            opacity: 0.7;
+            height: 80%;
+        }
+        .bottomText{
+            display: none;
+        }
+    }
+    }
+    .--gemnasticThird {
+      background-image: url(../assets/ourclasses/gymnasticThree.png);
+      &:hover{
+        .bottomTextTwo{
+            opacity: 0.7;
+            height: 80%;
+        }
+        .bottomText{
+            display: none;
+        }
+    }
+    }
+    .--gemnasticFour {
+      background-image: url(../assets/ourclasses/gymnasticFour.png);
+      &:hover{
+        .bottomTextTwo{
+            opacity: 0.7;
+            height: 80%;
+        }
+        .bottomText{
+            display: none;
+        }
+    }
+    }
+    .--gemnasticFive {
+      background-image: url(../assets/ourclasses/gymnasticFive.png);
+      &:hover{
+        .bottomTextTwo{
+            opacity: 0.7;
+            height: 80%;
+        }
+        .bottomText{
+            display: none;
+        }
+    }
+    }
+    .--gemnasticSix {
+      background-image: url(../assets/ourclasses/gymnasticeSix.png);
+      &:hover{
+        .bottomBottomUp {
+            height: 100%;
+            opacity: 0.8;
+          }
+      }
+    }
+  }
+}
+.bottomTextTwo {
+  //display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 80%;
+  height: 0%;
+  margin: 55px 45px 67px 46px;
+  background-color: #ff1d6a;
+  padding: 5px 0px 5px 22px;
+  opacity: 0;
+  background-blend-mode: lighten;
+  transition: all .5s linear;
+  h2 {
+    font-family: "RalewaySemiBold" !important;
+    font-size: 1.875rem;
+    text-align: center;
+    color: $base-color;
+    padding: 23px 26px 16.5px 27px;
+    position: relative;
+    &::before {
+      content: "";
+      width: 100px;
+      height: 2px;
+      background-color: $burnt-orange;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: -2px;
+    }
+  }
+  p {
+    font-family: "RalewayMedium" !important;
+    font-size: 1.25rem;
+    text-align: center;
+    color: $base-color;
+    padding-bottom: 16.5px;
+  }
+}

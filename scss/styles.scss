@@ -1,0 +1,15 @@
+@charset 'utf-8';
+@import "vendor/__vendor-dir";
+@import "abstracts/__abstracts-dir";
+@import "base/__base-dir";
+@import "helpers/__helpers-dir";
+@import "components/__components-dir";
+@import "layouts/__layouts-dir";
+@import "pages/__pages-dir";
+
+html,body{
+ font-size: 16px;
+ font-family: 'RalewayRegular'!important;
+}
+
+
